@@ -1,0 +1,243 @@
+/* CSS Document */
+
+/* font-family: 'Lily Script One'*/
+
+/*Etiquetas*/
+/* TRouBled*/
+/*  body { background: url(../images/gotas.jpg); background-size: cover; background-repeat: no-repeat } */
+
+aside {
+	width: 150px;
+	height: 700px;
+	margin: 10px 0 10px 0;
+	float: left;
+	background: white;
+	border-radius: 20px 20px 20px 20px;
+}
+figure {
+	background: url(../images/jugando.jpg);
+	background-size: cover;
+	background-position: 50% 47%;
+	width: 600px;
+	height: 170px;
+	position: absolute;
+	border-radius: 20px 20px 20px 20px;
+	margin: 30px 10px 15px 15px;
+}
+figure figcaption {
+	color: white;
+	background: rgba(0,51,204,0.3);
+	width: 300px;
+	left: 190px;
+	position: relative;
+	top: 150px;
+}
+section h3 {
+	font-family: 'Lily Script One', cursive;
+	font-size: 20px;
+	margin: 20px;
+}
+section h3::before {
+	content: " :: ";
+	color: blue
+}
+section h3::after {
+	content: " :: ";
+	color: blue
+}
+section p {
+	font-family: "Comic Sans MS", cursive;
+	font-size: 13px;
+	text-align: justify;
+	margin: 10px;
+	-webkit-column-count: 2;
+	-webkit-column-gap: 13px;
+	padding: 180px 0 0 0;
+}
+section p::first-letter {
+	font-family: 'Lily Script One', cursive;
+	color: navy;
+	font-size: 40px;
+	float: left;
+	padding: 0px 10px 0px 0px;
+	text-shadow: 3px 3px 3px rgba(51,51,51,0.5)
+}
+section p::first-line {
+	color: navy;
+}
+section p::selection {
+	background: blue;
+	color: white;
+}
+body {
+	background: rgba(112,95,84,0.8);
+}
+footer {
+	width: 960px;
+	height: 40px;
+	margin: 10px 0 10px 0;
+	float: left;
+	background: white;
+	background: rgba(255,255,255,0.8);
+	border-radius: 20px 20px 20px 20px;
+}
+header h1 {
+	margin-left:250px;
+	font-family: Arial;
+	font-size: 36px;
+	padding: 10px 0 0 0;
+	text-shadow: 0 0 10px white;
+}
+header h2 {
+	font-family: Arial;
+	font-size: 28px;
+	text-align: right;
+	margin: 0 20px 0 0;
+	padding: 10px 0 0 0;
+	text-shadow: 0 0 10px white;
+}
+footer h5 {
+	font-family: 'Lily Script One', cursive;
+	margin: 10px 10px 10px 10px;
+	text-align: center;
+}
+header {
+
+	width: 960px;
+	height: 120px;
+	/*background : silver;*/
+	
+	/*opacity: 0.85;*/
+	/*background-repeat: no-repeat;*/
+	
+	/*background:-webkit-linear-gradient( rgba(0,204,255,0.5),rgba(255,255,255,0.8));*/
+	border-radius: 0 0 20px 20px;
+	/*box-shadow: 5px 5px 5px gray;*/
+}
+
+header #barner{
+	position:relative;
+	margin: 20px 0px 0px 0px;
+	width: 960px;
+	height: 300px;
+	background: url(../images/barnerLogo.png);
+	opacity: 0.85;
+	float: left;
+	background-repeat: no-repeat;
+	z-index: -10;
+	border-radius: 20px 20px 20px 20px;
+}
+header #links{
+	margin: 130px 200px 100px 800px; 
+}
+nav li {
+	width: 80px;
+	height: 24px;
+	list-style: none;
+	padding: 7px;
+	background: rgba(153,153,153,0.4);
+	border-radius: 5px;
+	float: left;
+	margin: 5px;
+	color: white;
+	text-shadow: 0 0 10px;
+}
+nav {
+	width: 100px;
+	height: 700px;
+	/*background: rgba(153,153,153,0.2);*/
+	background: url(../images/lateral3.png);
+	opacity: 0.8;
+	float: left;
+	background-repeat: no-repeat;
+	z-index: -10;
+	
+	border-radius: 20px 20px 20px 20px;
+	float: left;
+	margin: 0 0 0 0;
+	padding: 5px 5px 5px 5px;
+}
+nav li:hover{
+	background: black;
+	cursor: pointer;
+	-webkit-transform:scale(1.3,1.3);
+	-webkit-transition: all 500ms;
+}
+
+/*
+nav li:hover:nth-child(odd) {
+	background: black;
+	cursor: pointer;
+	-webkit-transform:scale(1.3,1.3);
+	-webkit-transition: all 500ms;
+}
+
+nav li:hover:nth-child(even) {
+	background: black;
+	cursor: pointer;
+	-webkit-transform:scale(0.8,0.8);
+	-webkit-transition: all 500ms;
+}
+*/
+
+
+
+section {
+	
+	width: 640px;
+	height: 710px;
+	margin: 0px 15px 30px 15px;
+	float: left;
+	background: white;
+	background: rgba(255,255,255,0.6 );
+	border-radius: 20px 20px 20px 20px;
+}
+/*IDs*/
+#bg {
+	/*margin: 0px 0px 0px 65px;*/
+	width: 100%;
+	height: 130%;
+	position: fixed;
+	z-index: -99999
+}
+#contenedor {
+	width: 960px;
+	height: auto;
+	margin: auto;
+}
+#fondosSVG {
+	background: url(../graficosSVG/miPrimerVectorConIlustrator.svg);
+}
+
+#widgetFacebook{
+	width: 700px;
+	height: 700px;
+	margin: 10px 0 10px 0;
+	float: left;
+	background: white;
+	opacity: 0.8;
+}
+/*Clases*/
+.navcontenido {
+	width: 910px;
+	font-size: 15px;
+}
+/*Pseutdo Clases*/
+nav a:link {
+	color: white;
+	text-decoration: none;
+	font-family: 'Lily Script One', cursive;
+}
+nav a:visited {
+	color: white;
+	text-decoration: none;
+}
+nav a:hover {
+	color: white;
+	text-decoration: none;
+	text-shadow: 0 0 10px white;
+}
+nav a:active {
+	color: white;
+	text-shadow: 0 0 10px white;
+}
